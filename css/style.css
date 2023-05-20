@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e3e6eb;;
+}
+
+nav {
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    /* Rata Atas bawah*/
+    /* justify-content: center; Rata Kanan Kiri */
+    height: 10vh;
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul li .active {
+    color: black;
+    font-weight: bold;
+}
+
+/* nav ul li #active {
+    color: aqua;
+} */
+
+.nav-left {
+    /* Mengatur Lebarnya */
+    flex: 50%;
+    margin-left: 25px;
+}
+
+.nav-left a:hover {
+    color: orangered;
+}
+
+.nav-right {
+    flex: 50%;
+    text-align: end;
+    margin-right: 70px;
+}
+
+.nav-right a {
+    background-color: #111727;
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav-right a:hover {
+    background-color: orangered;
+}
+
+.container-card{
+        width: 1300px;
+        margin: 90px auto;
+        padding: 0px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        box-shadow: 0 0 15px #cecece;
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+        align-items: center;
+        margin-top: 80px;
+}
+
+section {
+    display: flex;
+    width: 80%;
+}
+
+.left {
+    flex: 80%;
+    font-size: 15px;
+    margin-left : -90px;
+    margin-top: 50px;
+    margin-bottom : 0px
+}
+
+.left #judul {
+    width: 90%;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.left #caption {
+    width: 90%;
+    text-align: justify;
+}
+
+.personal {
+    display: flex;
+    margin-top: 50px;
+}
+
+.button-contact {
+    width: 115px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #111727;
+}
+
+.button-contact a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: flex;
+    position: relative;
+    left: 25px;
+    top: 3px;
+    font-size: 17px;
+}
+
+.button-contact:hover{
+    background-color: orangered;
+}
+
+table .download-cv {
+    text-decoration: none;
+    color: #111727;
+}
+
+table .download-cv:hover {
+    text-decoration: none;
+    color: orangered;
+}
+
+.table-download{
+    margin-top: 1px;
+    margin-left: 20px;
+}
+
+
+table #icon-download {
+    margin-top: -10px;
+    margin-left: 7px;
+    position: relative;
+    top: 5px;
+}
+
+.social-media {
+    display: flex;
+    margin: 50px 0px 0px -20px;
+
+}
+
+.linkedin {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    border-radius: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+.linkedin:hover {
+    box-shadow: 0 0 0 7px #0b65c3;
+}
+
+.instagram {
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 100%;
+    background-color: #000000;
+}
+
+.instagram:hover {
+    box-shadow: 0 0 0 7px #d03577;
+
+/* #1872ea */
+}
+
+.facebook {
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 100%;
+    background-color: #000000;
+}
+
+.facebook:hover {
+    box-shadow: 0 0 0 7px #1872ea;
+}
+
+.twitter {
+    font-size: 27px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 100%;
+    background-color: #000000;
+}
+
+.twitter:hover {
+    box-shadow: 0 0 0 7px #1c96e9;
+}
+
+
+
+.right {
+        flex: 20%;
+        font-size: 15px;
+        margin-right: -90px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+
+.card-saya {
+        width: 400px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px #cecece;
+}
+
+.foto-saya {
+        width: 100%;
+        border-radius: 5px;
+        height: 450px
+}

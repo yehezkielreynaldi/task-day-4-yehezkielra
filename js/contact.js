@@ -17,7 +17,7 @@ function submitData() {
         return alert("Message Wajib diisi");
     }
 
-    let emailReceiver = "yehezkielreynaldi01@gmail.com";
+    let emailReceiver = "yehezkielreynaldi01@gmail.com"
 
     let a = document.createElement("a");
     a.href = `mailto: ${emailReceiver}?subject=${subject}&body=Halo, nama saya ${name}, ${message}. Silahkan kontak saya di nomor ${phone}, terimakasih.`

@@ -256,7 +256,7 @@ textarea {
 }
 
 .grid article .icon-linked-app img:hover{
-    rotate: 180deg;
+    rotate: 360deg;
     transition: ease-in-out 0.555s;
     transition-delay: 0.1s;
 
